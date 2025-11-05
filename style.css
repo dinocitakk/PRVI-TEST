@@ -1,0 +1,61 @@
+.karte {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+
+.karta {
+    border: 6px solid black;
+    border-radius: 8px;
+    width: 160px;
+    
+}
+
+.Povratak {
+bottom: 20px;
+right: 20px;
+position: fixed;
+}
+        .karta0{
+            position: absolute;
+            z-index: 1;
+            }
+    .karta1{
+        position: absolute;
+        z-index: 2;
+        top: 50px;
+
+    
+    }
+    .karta2{
+        position: absolute;
+        z-index:3 ;
+        top: 100px;
+    }
+
+
+    .pozicija1 {
+
+        position: relative;
+        
+    }
+
+    .pozicija2 {
+left: 150px;
+position: relative;
+
+    }
+
+    .pozicija3 {
+
+left: 300px;
+position: relative;
+    }
+
+    .pozicija4 {
+
+left: 450px;
+position: relative;
+    }

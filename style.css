@@ -6,7 +6,7 @@
     
 }
 
-.karta {
+.karta- {
     border: 6px solid black;
     border-radius: 8px;
     width: 160px;
@@ -18,22 +18,9 @@ bottom: 20px;
 right: 20px;
 position: fixed;
 }
-        .karta0{
-            position: absolute;
-            z-index: 1;
-            }
-    .karta1{
-        position: absolute;
-        z-index: 2;
-        top: 50px;
+      
+ 
 
-    
-    }
-    .karta2{
-        position: absolute;
-        z-index:3 ;
-        top: 100px;
-    }
 
 
     .pozicija1 {
@@ -45,7 +32,7 @@ position: fixed;
     .pozicija2 {
 left: 150px;
 position: relative;
-
+ 
     }
 
     .pozicija3 {
@@ -59,3 +46,53 @@ position: relative;
 left: 450px;
 position: relative;
     }
+
+.slike{
+            display: flex;
+            flex-wrap: wrap;
+            position: static;
+        }
+        .karta{
+            position: absolute;
+            z-index: 1;
+            border: 5px solid black;
+        }
+        .karta1{
+            position: absolute;
+            z-index: 2;
+            top: 35px;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            border-bottom: 5px solid black;
+        }
+        .karta2{
+            position: absolute;
+            z-index: 3;
+            top: 65px;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            border-bottom: 5px solid black;
+        }
+        .karta3{
+            position: absolute;
+            z-index: 4;
+            top: 95px;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            border-bottom: 5px solid black;}
+
+            .karta4 {
+position: absolute;
+            z-index: 5;
+            top: 125px;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            border-bottom: 5px solid black;
+
+            }
+
+            .prvagrupa, .drugagrupa, .trecagrupa, .cetvrtagrupa {
+        position: relative;
+        width: 150px; 
+        height: 250px; 
+        }
